@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Pankaj",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "18.4.1",
+    "@hapi/joi": "17.1.1",
+    "mysql2": "2.1.0",
+    "nodemon": "2.0.2",
+    "sequelize": "5.21.5"
+  }
+}

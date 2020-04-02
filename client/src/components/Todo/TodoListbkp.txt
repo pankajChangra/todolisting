@@ -1,0 +1,43 @@
+// import React, { useState, useEffect } from "react";
+// import TodoListItem from "./TodoListItem";
+// import { connect } from 'react-redux';
+
+// interface IProps {
+//     items? :  any
+//     markTodoDone: any
+//     removeItem: any
+// }
+
+// function TodoList(props: IProps){
+
+//     const [todo, setTodo] = useState(null)
+
+//     useEffect(() => {
+//         setTodo(`The new articles of`);
+//     }, [todo]);
+    
+//     // var items = props.items.map((item: any, index: any) => {
+//     //     return (
+//     //       <TodoListItem key={index} item={item} index={index} removeItem={props.removeItem} markTodoDone={props.markTodoDone} />
+//     //     );
+//     //   });
+
+//     return (
+//         <React.Fragment>
+//             {console.log(todo, "todotodotodotodotodo")}
+//             {/* <ul className="list-group"></ul> */}
+//         </React.Fragment>
+//     );
+// };
+
+// const mapStateToProps = (state:any) => {
+//     return {
+//         name: state.todoDataList.name,
+//         message: state.todoDataList.message,
+//         errName: state.todoDataList.errName
+//     };
+// };
+
+// const connector = connect(mapStateToProps, null)
+
+// export default connector(TodoList);
