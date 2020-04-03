@@ -47,7 +47,7 @@ class TodoListItem extends React.Component<IProps, IState>{
         return(
             <li className="list-group-item ">
                 <div className={ todoClass }>
-                    <i className="fa fa-check" aria-hidden="true" onClick={this.onClickDone}></i>
+                    <i className="fa fa-check" aria-hidden="true" onClick={()=>this.onClickDone()}></i>
                     {this.props.item.tasks_name}
                     <button type="button" className="close" onClick={()=>this.onClickClose()}>&times;</button>
                 </div>
